@@ -4,9 +4,6 @@ marks2 = int(input("Enter marks for sub 2: "))
 marks3 = int(input("Enter marks for sub 3: "))
 marks4 = int(input("Enter marks for sub 4: "))
 marks5 = int(input("Enter marks for sub 5: "))
-if marks1 or marks2 or marks3 or marks4 or marks5 == -1:
-    print("Terminated")
-    exit()
 while marks1 < 0 or marks1 > 100:
     marks1 = int(input("Invalid input. Enter marks for sub 1 again: "))
 while marks2 < 0 or marks2 > 100:
